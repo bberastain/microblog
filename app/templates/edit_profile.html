@@ -4,6 +4,16 @@
   <h1>Edit Profile</h1>
   <form action='' method='post'>
     {{ form.hidden_tag() }}
+    <table>
+      <tr valign='top'>
+        <td><img src='{{ current_user.avatar(128) }}'></td>
+        </td>
+      </tr>
+    </table>
+
+    <p>Edit profile picture through
+      <a href='https://en.gravatar.com/'>Gravatar</a>
+    </p>
     <p>
       {{ form.username.label }}<br>
       {{ form.username(size=32) }}<br>
