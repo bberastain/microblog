@@ -111,3 +111,5 @@ TypeError: __init__() missing 1 required positional argument: 'original_username
 2018-04-25 11:38:04,214 INFO: Microblog startup [in /home/bberastain/Desktop/microblog/app/__init__.py:46]
 2018-04-25 11:40:19,133 INFO: Microblog startup [in /home/bberastain/Desktop/microblog/app/__init__.py:46]
 2018-04-25 11:40:28,717 INFO: Microblog startup [in /home/bberastain/Desktop/microblog/app/__init__.py:46]
+2018-04-25 18:05:13,126 INFO: Microblog startup [in /Users/vanyroca/Desktop/BrunoCompSci/app/__init__.py:46]
+2018-04-26 15:47:23,734 INFO: Microblog startup [in /Users/vanyroca/Desktop/BrunoCompSci/app/__init__.py:46]
