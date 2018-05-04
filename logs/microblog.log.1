@@ -1,0 +1,127 @@
+2018-05-04 00:45:18,454 INFO: Microblog startup [in /home/bberastain/Desktop/microblog/app/__init__.py:48]
+2018-05-04 01:03:11,506 ERROR: Exception on /reset_password_request [GET] [in /home/bberastain/Desktop/microblog/venv/lib/python3.5/site-packages/flask/app.py:1560]
+Traceback (most recent call last):
+  File "/home/bberastain/Desktop/microblog/venv/lib/python3.5/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/bberastain/Desktop/microblog/venv/lib/python3.5/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/bberastain/Desktop/microblog/venv/lib/python3.5/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/bberastain/Desktop/microblog/venv/lib/python3.5/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/bberastain/Desktop/microblog/venv/lib/python3.5/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/bberastain/Desktop/microblog/venv/lib/python3.5/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/bberastain/Desktop/microblog/app/routes.py", line 159, in reset_password_request
+    title='Reset Password', form=form)
+  File "/home/bberastain/Desktop/microblog/venv/lib/python3.5/site-packages/flask/templating.py", line 134, in render_template
+    context, ctx.app)
+  File "/home/bberastain/Desktop/microblog/venv/lib/python3.5/site-packages/flask/templating.py", line 116, in _render
+    rv = template.render(context)
+  File "/home/bberastain/Desktop/microblog/venv/lib/python3.5/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/bberastain/Desktop/microblog/venv/lib/python3.5/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/bberastain/Desktop/microblog/venv/lib/python3.5/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/bberastain/Desktop/microblog/app/templates/reset_password_request.html", line 1, in top-level template code
+    {% extends base.html %}
+  File "/home/bberastain/Desktop/microblog/venv/lib/python3.5/site-packages/jinja2/environment.py", line 430, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'base' is undefined
+2018-05-04 01:07:28,705 INFO: Microblog startup [in /home/bberastain/Desktop/microblog/app/__init__.py:48]
+2018-05-04 01:10:02,197 ERROR: Exception on /reset_password_request [GET] [in /home/bberastain/Desktop/microblog/venv/lib/python3.5/site-packages/flask/app.py:1560]
+Traceback (most recent call last):
+  File "/home/bberastain/Desktop/microblog/venv/lib/python3.5/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/bberastain/Desktop/microblog/venv/lib/python3.5/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/bberastain/Desktop/microblog/venv/lib/python3.5/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/bberastain/Desktop/microblog/venv/lib/python3.5/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/bberastain/Desktop/microblog/venv/lib/python3.5/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/bberastain/Desktop/microblog/venv/lib/python3.5/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/bberastain/Desktop/microblog/app/routes.py", line 159, in reset_password_request
+    title='Reset Password', form=form)
+  File "/home/bberastain/Desktop/microblog/venv/lib/python3.5/site-packages/flask/templating.py", line 134, in render_template
+    context, ctx.app)
+  File "/home/bberastain/Desktop/microblog/venv/lib/python3.5/site-packages/flask/templating.py", line 116, in _render
+    rv = template.render(context)
+  File "/home/bberastain/Desktop/microblog/venv/lib/python3.5/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/bberastain/Desktop/microblog/venv/lib/python3.5/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/bberastain/Desktop/microblog/venv/lib/python3.5/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/bberastain/Desktop/microblog/app/templates/reset_password_request.html", line 1, in top-level template code
+    {% extends 'base.html' %}
+  File "/home/bberastain/Desktop/microblog/venv/lib/python3.5/site-packages/jinja2/environment.py", line 430, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'base' is undefined
+2018-05-04 01:11:04,367 ERROR: Exception on /reset_password_request [GET] [in /home/bberastain/Desktop/microblog/venv/lib/python3.5/site-packages/flask/app.py:1560]
+Traceback (most recent call last):
+  File "/home/bberastain/Desktop/microblog/venv/lib/python3.5/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/bberastain/Desktop/microblog/venv/lib/python3.5/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/bberastain/Desktop/microblog/venv/lib/python3.5/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/bberastain/Desktop/microblog/venv/lib/python3.5/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/bberastain/Desktop/microblog/venv/lib/python3.5/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/bberastain/Desktop/microblog/venv/lib/python3.5/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/bberastain/Desktop/microblog/app/routes.py", line 159, in reset_password_request
+    title='Reset Password', form=form)
+  File "/home/bberastain/Desktop/microblog/venv/lib/python3.5/site-packages/flask/templating.py", line 134, in render_template
+    context, ctx.app)
+  File "/home/bberastain/Desktop/microblog/venv/lib/python3.5/site-packages/flask/templating.py", line 116, in _render
+    rv = template.render(context)
+  File "/home/bberastain/Desktop/microblog/venv/lib/python3.5/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/bberastain/Desktop/microblog/venv/lib/python3.5/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/bberastain/Desktop/microblog/venv/lib/python3.5/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/bberastain/Desktop/microblog/app/templates/reset_password_request.html", line 1, in top-level template code
+    {% extends 'base.html' %}
+  File "/home/bberastain/Desktop/microblog/venv/lib/python3.5/site-packages/jinja2/environment.py", line 430, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'base' is undefined
+2018-05-04 01:11:07,304 ERROR: Exception on /reset_password_request [GET] [in /home/bberastain/Desktop/microblog/venv/lib/python3.5/site-packages/flask/app.py:1560]
+Traceback (most recent call last):
+  File "/home/bberastain/Desktop/microblog/venv/lib/python3.5/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/bberastain/Desktop/microblog/venv/lib/python3.5/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/bberastain/Desktop/microblog/venv/lib/python3.5/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/bberastain/Desktop/microblog/venv/lib/python3.5/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/bberastain/Desktop/microblog/venv/lib/python3.5/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/bberastain/Desktop/microblog/venv/lib/python3.5/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/bberastain/Desktop/microblog/app/routes.py", line 159, in reset_password_request
+    title='Reset Password', form=form)
+  File "/home/bberastain/Desktop/microblog/venv/lib/python3.5/site-packages/flask/templating.py", line 134, in render_template
+    context, ctx.app)
+  File "/home/bberastain/Desktop/microblog/venv/lib/python3.5/site-packages/flask/templating.py", line 116, in _render
+    rv = template.render(context)
+  File "/home/bberastain/Desktop/microblog/venv/lib/python3.5/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/bberastain/Desktop/microblog/venv/lib/python3.5/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/bberastain/Desktop/microblog/venv/lib/python3.5/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/bberastain/Desktop/microblog/app/templates/reset_password_request.html", line 1, in top-level template code
+    {% extends 'base.html' %}
+  File "/home/bberastain/Desktop/microblog/venv/lib/python3.5/site-packages/jinja2/environment.py", line 430, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'base' is undefined
+2018-05-04 01:21:07,709 INFO: Microblog startup [in /home/bberastain/Desktop/microblog/app/__init__.py:48]
