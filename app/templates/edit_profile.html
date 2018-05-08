@@ -2,7 +2,7 @@
 {% import 'bootstrap/wtf.html' as wtf %}
 
 {% block app_content %}
-  <h1>Edit Profile</h1>
+  <h1>{{ _('Edit Profile') }}</h1>
     <table>
       <tr valign='top'>
         <td><img src='{{ current_user.avatar(128) }}'></td>
@@ -10,7 +10,7 @@
       </tr>
     </table>
 
-    <p>Edit profile picture through
+    <p>{{ _('Edit profile picture through') }}
       <a href='https://en.gravatar.com/'>Gravatar</a>
     </p>
     <div class="row">
