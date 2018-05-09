@@ -1,6 +1,8 @@
 from flask_wtf import FlaskForm
-from wtforms import StringField, PasswordField, BooleanField, SubmitField, TextAreaField
-from wtforms.validators import ValidationError, Email, EqualTo, DataRequired, Length
+from wtforms import StringField, PasswordField, BooleanField, SubmitField, \
+    TextAreaField
+from wtforms.validators import ValidationError, Email, EqualTo, DataRequired, \
+    Length
 from app.models import User
 from flask_babel import _, lazy_gettext as _l
 
